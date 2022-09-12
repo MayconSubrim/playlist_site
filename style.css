@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(imagens/Space-red-galaxy-stars_2560x1600.jpg);
+    background-size: cover;
+    zoom: 90%;
+}
+
+#navbar{
+    display: flex;
+    height: 64px;
+    width: 100%;
+    background-color: #1e1e1e;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 148px;
+    height: 33px;
+    top: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+
+.busca{
+    position: relative;
+    display: inline-block;
+    top: 25%;
+}
+
+.caixa{
+    margin-right: 100px;
+    width: 448px;
+    height: 30px;
+    border-radius: 27px;
+    border: 0;
+    padding-left: 10px;
+    outline: none;
+}
+
+.lupa{
+    margin-right: 100px;
+    width: 23px;
+    height: 23px;
+    float: right;
+    position: absolute;
+    right: 8px;
+    top: 5%;
+}
+
+.profile{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.profile_img{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.playlist_name{
+    width: 1144px;
+    height: 257px;
+    left: 148px;
+    top: 64px;
+    background: linear-gradient(180deg, #FF0000 0%, #850000 72.13%);
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.playlist_img{
+    width: 189px;
+    height: 214px;
+    margin: 0 auto;
+}
+
+.img_playlist{
+    width: 189px;
+    height: 189px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.nome_play{
+    text-align: center;
+    color: white;
+}
+
+.musicas{
+    background-color: #1e1e1e;
+    width: 1144px;
+    height: 778px;
+    margin: 0 auto;
+    
+}
+
+.musicas_10{
+    width: 1144px;
+    height: 78px;
+    left: 148px;
+    top: 321px;
+    background: #1E1E1E;
+    border-bottom: 1px solid #363030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto_musica{
+    width: 63px;
+    height: 63px;
+    position: absolute;
+}
+
+
+.img_music{
+    width: 63px;
+    margin-left: 10px;
+}
+
+.nome_musica{
+    margin-left: 100px;
+    width: 286px;
+}
+
+.tempo{
+    margin-right: 20px;
+}
+
+.nome_banda{
+    width: 286px;
+}
+
+.nome_album{
+    width: 286px;
+}
+
+.nome_musica, .nome_banda, .nome_album, .tempo{
+    color: white;
+}
+
+.ancora{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Nome_music{
+   text-align: center;
+    color: #FFFFFF;
+    margin-top: 70px;
+    font-size: 48px;
+}
+
+.Nome_Banda{
+    color: #FF0000;
+    text-align: center;
+    font-size: 36px;
+}
+
+.banner_music{
+    width: 600px;
+    height: 600px;
+    background-color: #FF0000;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.div_bar{
+    display: flex;
+    margin-top: 95px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.barra{
+    width: 1100px;
+    height: 10px;
+}
+
+.music_mini, .tempo_mini{
+    color: white;
+}
+
+.music_mini{
+    margin-right: 3px;
+    width: 152px;
+    text-align: right;
+}
+
+.tempo_mini{
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.icone_play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev{
+    width: 65px;
+    height: 65px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
+}
+
+.next{
+    width: 65px;
+    height: 65px;
+}
+
+
+
+.playTeste{
+    background-color: #850000;
+    
+}
+
+#play{
+    width: 100px;
+    height: 100px;
+}
