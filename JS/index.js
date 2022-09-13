@@ -2,7 +2,7 @@ var main = `<div class="playlist_name">
     <div class="playlist_img">
         <figure>
             <img class="img_playlist" src="imagens/lofi.jpg" alt="" width="189px">
-            <figcaption class="nome_play">Nome da Playlist</figcaption>
+            <figcaption class="nome_play">Minha Play List</figcaption>
         </figure>
     </div>
 </div>
