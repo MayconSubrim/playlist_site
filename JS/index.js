@@ -301,17 +301,26 @@ var music1 = `<span class="Nome_music">
 </span>
 
 <div class="banner_music">
-<img class="banner_img" src="imagens/bannerFear.jpg" alt="banner_music">
+<img class="banner_img" src="imagens/bannerFear.jpg" alt="banner_music" />
 </div>
 <div class="div_bar">
 <p class="music_mini">Fear of the dark:</p>
-<progress class="barra" value="0" max="1"></progress>            
-<p class="tempo_mini">0:0 / 7:19</p>
+<div class="barra">
+  <progress value="0" max="1"></progress>
+  <div class="ponto"></div>
 </div>
+<p class="tempo_mini"><span class="inicio_music">0:00</span> / <span class="fim"></span></p></div></div>
 <div class="icone_play">
-<img class="prev" id="prev" src="icones/icons8__ltimo_96_1.png" alt="">
-<img class="play" id="play" src="icones/icons8_pr_ximo_100_1.png" alt="">
-<a class="ancora" onclick="carregaConteudo(music2)"><img class="next" id="next" src="icones/icons8__ltimo_96_2.png" alt=""></a>   
+<img class="prev" id="prev" src="icones/icons8__ltimo_96_1.png" alt="" />
+<img
+  class="play"
+  id="play"
+  src="icones/icons8_pr_ximo_100_1.png"
+  alt=""
+/>
+<a class="ancora" onclick="carregaConteudo(music2)"
+  ><img class="next" id="next" src="icones/icons8__ltimo_96_2.png" alt=""
+/></a>
 <audio class="audiozada" src="musicas/fearofthedark.mp3" loop></audio>
 </div>`
 
@@ -327,10 +336,11 @@ var music2 = `<span class="Nome_music">
 </div>
 <div class="div_bar">
 <p class="music_mini">Heat Weaves:</p>
-<progress class="barra" value="1" max="1"></progress>            
-<p class="tempo_mini">0:0 / 3:56</p>
-</div>
-<div class="icone_play">
+<div class="barra">
+    <progress value="0" max="1"></progress>
+    <div class="ponto"></div>
+</div>            
+<p class="tempo_mini"><span class="inicio_music">0:00</span> / <span class="fim"></span></p></div><div class="icone_play">
 <a class="ancora" onclick="carregaConteudo(music1)"><img class="prev" id="prev" src="icones/icons8__ltimo_96_1.png" alt=""></a>
 <img class="play" id="play" src="icones/icons8_pr_ximo_100_1.png" alt=""> 
 <a class="ancora" onclick="carregaConteudo(music3)"><img class="next" id="next" src="icones/icons8__ltimo_96_2.png" alt=""> </a>
@@ -349,10 +359,11 @@ var music3 = `<span class="Nome_music">
 </div>
 <div class="div_bar">
 <p class="music_mini">Yellow:</p>
-<progress class="barra" value="1" max="1"></progress>            
-<p class="tempo_mini">0:0 / 4:33</p>
-</div>
-<div class="icone_play">
+<div class="barra">
+    <progress value="0" max="1"></progress>
+    <div class="ponto"></div>
+</div>              
+<p class="tempo_mini"><span class="inicio_music">0:00</span> / <span class="fim"></span></p></div><div class="icone_play">
 <a class="ancora" onclick="carregaConteudo(music2)"><img class="prev" id="prev" src="icones/icons8__ltimo_96_1.png" alt=""></a>
 <img class="play" id="play" src="icones/icons8_pr_ximo_100_1.png" alt=""> 
 <a class="ancora" onclick="carregaConteudo(music4)"><img class="next" id="next" src="icones/icons8__ltimo_96_2.png" alt=""> </a>
@@ -371,10 +382,11 @@ var music4 = `<span class="Nome_music">
 </div>
 <div class="div_bar">
 <p class="music_mini">Cheia de manias:</p>
-<progress class="barra" value="1" max="1"></progress>            
-<p class="tempo_mini">0:0 / 4:15</p>
-</div>
-<div class="icone_play">
+<div class="barra">
+    <progress value="0" max="1"></progress>
+    <div class="ponto"></div>
+</div>             
+<p class="tempo_mini"><span class="inicio_music">0:00</span> / <span class="fim"></span></p></div><div class="icone_play">
 <a class="ancora" onclick="carregaConteudo(music3)"><img class="prev" id="prev" src="icones/icons8__ltimo_96_1.png" alt=""></a>
 <img class="play" id="play" src="icones/icons8_pr_ximo_100_1.png" alt=""> 
 <a class="ancora" onclick="carregaConteudo(music5)"><img class="next" id="next" src="icones/icons8__ltimo_96_2.png" alt=""> </a>
@@ -393,10 +405,11 @@ var music5 = `<span class="Nome_music">
 </div>
 <div class="div_bar">
 <p class="music_mini">Tempo perdido:</p>
-<progress class="barra" value="1" max="1"></progress>            
-<p class="tempo_mini">0:0 / 5:02</p>
-</div>
-<div class="icone_play">
+<div class="barra">
+    <progress value="0" max="1"></progress>
+    <div class="ponto"></div>
+</div>             
+<p class="tempo_mini"><span class="inicio_music">0:00</span> / <span class="fim"></span></p></div><div class="icone_play">
 <a class="ancora" onclick="carregaConteudo(music4)"><img class="prev" id="prev" src="icones/icons8__ltimo_96_1.png" alt=""></a>
 <img class="play" id="play" src="icones/icons8_pr_ximo_100_1.png" alt=""> 
 <a class="ancora" onclick="carregaConteudo(music6)"><img class="next" id="next" src="icones/icons8__ltimo_96_2.png" alt=""> </a>
@@ -415,9 +428,11 @@ var music6 = `<span class="Nome_music">
 </div>
 <div class="div_bar">
 <p class="music_mini">Seaweter Weather:</p>
-<progress class="barra" value="1" max="1"></progress>            
-<p class="tempo_mini">0:0 / 4:41</p>
-</div>
+<div class="barra">
+    <progress value="0" max="1"></progress>
+    <div class="ponto"></div>
+</div>             
+<p class="tempo_mini"><span class="inicio_music">0:00</span> / <span class="fim"></span></p></div>
 <div class="icone_play">
 <a class="ancora" onclick="carregaConteudo(music5)"><img class="prev" id="prev" src="icones/icons8__ltimo_96_1.png" alt=""></a>
 <img class="play" id="play" src="icones/icons8_pr_ximo_100_1.png" alt=""> 
@@ -437,9 +452,11 @@ var music7 = `<span class="Nome_music">
 </div>
 <div class="div_bar">
 <p class="music_mini">Enemy:</p>
-<progress class="barra" value="1" max="1"></progress>            
-<p class="tempo_mini">0:0 / 3:34</p>
-</div>
+<div class="barra">
+    <progress value="0" max="1"></progress>
+    <div class="ponto"></div>
+</div>             
+<p class="tempo_mini"><span class="inicio_music">0:00</span> / <span class="fim"></span></p></div></div>
 <div class="icone_play">
 <a class="ancora" onclick="carregaConteudo(music6)"><img class="prev" id="prev" src="icones/icons8__ltimo_96_1.png" alt=""></a>
 <img class="play" id="play" src="icones/icons8_pr_ximo_100_1.png" alt=""> 
@@ -459,9 +476,11 @@ var music8 = `<span class="Nome_music">
 </div>
 <div class="div_bar">
 <p class="music_mini">Nothing else matters:</p>
-<progress class="barra" value="1" max="1"></progress>            
-<p class="tempo_mini">0:0 / 6:29</p>
-</div>
+<div class="barra">
+    <progress value="0" max="1"></progress>
+    <div class="ponto"></div>
+</div>             
+<p class="tempo_mini"><span class="inicio_music">0:00</span> / <span class="fim"></span></p></div></div>
 <div class="icone_play">
 <a class="ancora" onclick="carregaConteudo(music7)"><img class="prev" id="prev" src="icones/icons8__ltimo_96_1.png" alt=""></a>
 <img class="play" id="play" src="icones/icons8_pr_ximo_100_1.png" alt=""> 
@@ -481,9 +500,11 @@ var music9 = `<span class="Nome_music">
 </div>
 <div class="div_bar">
 <p class="music_mini">californication:</p>
-<progress class="barra" value="1" max="1"></progress>            
-<p class="tempo_mini">0:0 / 5:21</p>
-</div>
+<div class="barra">
+    <progress value="0" max="1"></progress>
+    <div class="ponto"></div>
+</div>             
+<p class="tempo_mini"><span class="inicio_music">0:00</span> / <span class="fim"></span></p></div></div>
 <div class="icone_play">
 <a class="ancora" onclick="carregaConteudo(music8)"><img class="prev" id="prev" src="icones/icons8__ltimo_96_1.png" alt=""></a>
 <img class="play" id="play" src="icones/icons8_pr_ximo_100_1.png" alt=""> 
@@ -503,8 +524,11 @@ var music10 = `<span class="Nome_music">
 </div>
 <div class="div_bar">
 <p class="music_mini">Lonely day:</p>
-<progress class="barra" value="1" max="1"></progress>            
-<p class="tempo_mini">0:0 / 2:51</p>
+<div class="barra">
+    <progress value="0" max="1"></progress>
+    <div class="ponto"></div>
+</div>             
+<p class="tempo_mini"><span class="incio_music">0:0</span> / 2:51</p>
 </div>
 <div class="icone_play">
 <a class="ancora" onclick="carregaConteudo(music9)"><img class="prev" id="prev" src="icones/icons8__ltimo_96_1.png" alt=""></a>
@@ -514,25 +538,48 @@ var music10 = `<span class="Nome_music">
 </div>`
 
 var elemento = document.getElementById("conteudo");
-
+const audio = document.querySelector("audio");
 
 function carregaConteudo(params) {
     elemento.innerHTML = params;
-    const button = document.getElementById("play")
-button.addEventListener('click', PlayMusic =>{
-const audio = document.querySelector('audio');
-                    
-if (audio.classList.contains("playTeste")) {
-audio.pause();
-        button.src ="icones/icons8_pr_ximo_100_1.png";
-    audio.classList.remove("playTeste");
-    return
-    }
-audio.classList.add("playTeste")
-button.src = "icones/pause.png";
-audio.play();
-              
-    })
+    const audio = document.querySelector("audio");
+
+      const button = document.getElementById("play");
+      button.addEventListener("click", (PlayMusic) => {
+        const audio = document.querySelector("audio");
+
+        if (audio.classList.contains("playTeste")) {
+          audio.pause();
+          button.src = "icones/icons8_pr_ximo_100_1.png";
+          audio.classList.remove("playTeste");
+          return;
+        }
+        audio.classList.add("playTeste");
+        button.src = "icones/pause.png";
+        audio.play();
+      });
+      
+        audio.addEventListener("timeupdate", (atualizarBarra) => {
+        let barra = document.querySelector("progress");
+
+        barra.style.width = 
+        Math.floor((audio.currentTime / audio.duration) * 100) + "%";
+        let tempoDecorrido = document.querySelector(".inicio_music")
+        tempoDecorrido.textContent = segundosParaMinutos(Math.floor(audio.currentTime));
+
+        let duracaoMusica = document.querySelector('.fim')
+
+        duracaoMusica.textContent = segundosParaMinutos(Math.floor(audio.duration));
+      });
+
+      function segundosParaMinutos(segundos){
+        let campoMinutos = Math.floor(segundos / 60)
+        let campoSegundos = segundos % 60
+        if (campoSegundos < 10){
+            campoSegundos = '0' + campoSegundos
+        } 
+        return campoMinutos+ ':' +campoSegundos
+      }
 }
 
 carregaConteudo(main);
