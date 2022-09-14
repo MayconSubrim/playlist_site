@@ -127,6 +127,10 @@ footer{
     color: white;
 }
 
+.musicas .musicas_10 p{
+    margin-bottom: 0;
+}
+
 .musicas{
     background-color: #1e1e1e;
     width: 1144px;
