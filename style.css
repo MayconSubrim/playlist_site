@@ -244,7 +244,7 @@ footer{
     height: 462px;
     overflow: scroll;
     overflow-x: hidden;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.808) 5%, rgba(58, 58, 54, 0.808) 78%);
+    background-color: rgba(0, 0, 0, 0.576); 
     display: none;
     text-align: center;
 }
