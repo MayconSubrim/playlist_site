@@ -55,6 +55,34 @@ body{
     top: 5%;
 }
 
+footer{
+    margin-top: 0px;
+}
+
+.fa-facebook-f:hover{
+    color: #850000 !important;
+}
+
+.fa-twitter:hover {
+    color: #850000 !important;
+}
+
+.fa-google:hover{
+    color: #850000 !important;
+}
+
+.fa-instagram:hover{
+    color: #850000 !important;
+}
+
+.fa-linkedin:hover{
+    color: #850000 !important;
+}
+
+.fa-github:hover{
+    color: #850000 !important;
+}
+
 .profile{
     width: 38px;
     height: 38px;
@@ -158,7 +186,7 @@ body{
 }
 
 .Nome_music{
-   text-align: center;
+    text-align: center;
     color: #FFFFFF;
     margin-top: 70px;
     font-size: 48px;
@@ -171,19 +199,64 @@ body{
 }
 
 .banner_music{
-    width: 600px;
-    height: 600px;
-    background-color: #FF0000;
     margin: 0 auto;
     margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    object-fit: scale-down;
+}
+
+.banner_img{
+    width: 600px;
+    height: 462px;
+    object-fit: contain;
+}
+
+.letra{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 0px;
+    width: 79px;
+    height: 21px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #850000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.exibir .texto_letra{
+    display: block;
+}
+
+.letra:hover{
+    transform: scale(1.1);
+    transition: 100ms linear;
+}
+
+.texto_letra{
+    color: white;
+    width: 479px;
+    height: 462px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.808) 5%, rgba(58, 58, 54, 0.808) 78%);
+    display: none;
+    text-align: center;
+}
+
+.texto_letra::-webkit-scrollbar {
+    width: 0px;
 }
 
 .div_bar{
     display: flex;
-    margin-top: 95px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .barra{
@@ -230,11 +303,14 @@ progress{
     margin-right: 3px;
     width: 152px;
     text-align: right;
+    margin-top: 15px;
+    
 }
 
 .tempo_mini{
     margin-left: 3px;
     margin-right: 5px;
+    margin-top: 15px;
 }
 
 
@@ -243,6 +319,7 @@ progress{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 .prev{
