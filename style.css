@@ -139,6 +139,83 @@ footer{
     
 }
 
+@media screen and (max-width: 600px ) {
+    nav .busca .caixa{
+        width: 200px;
+        margin-right: 0;
+        
+    }
+
+    nav .busca .lupa{
+        margin-right: 0;
+    }
+    
+    nav .logo{
+        width: 50%px;
+    }
+
+    nav .profile{
+        display: none;
+    }
+    
+    main .playlist_name{
+        width: 400px;
+    }
+
+    main .musicas{
+        width: 400px;
+    }
+
+    main .musicas .ancora .musicas_10{
+        width: 400px;
+    }
+
+    main .musicas .ancora .musicas_10 .nome_album{
+        display: none;
+    }
+
+    main .musicas .ancora .musicas_10 .nome_banda{
+        display: none;
+    }
+
+    main .Nome_music{
+        margin-top: 10px;
+    }
+
+    main .banner_music{
+        gap: 0;
+        flex-direction: column;
+
+    }
+
+    main .banner_img{
+        object-fit: scale-down;
+        width: auto;
+    }
+
+    main .texto_letra{
+        width: auto;
+    }
+
+    main .div_bar .music_mini{
+        display: none;
+    }
+
+    main .div_bar{
+        margin-left: 10px;
+    }
+
+    main .div_bar .tempo_mini{
+        display: flex;
+    }
+
+    footer .container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
+
 .musicas_10{
     width: 1144px;
     height: 78px;
@@ -315,6 +392,7 @@ progress{
     margin-left: 3px;
     margin-right: 5px;
     margin-top: 15px;
+    display: flex;
 }
 
 
