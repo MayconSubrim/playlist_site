@@ -139,7 +139,7 @@ footer{
     
 }
 
-@media screen and (max-width: 600px ) {
+@media screen and (max-width: 480px ) {
     nav .busca .caixa{
         width: 200px;
         margin-right: 0;
@@ -151,23 +151,23 @@ footer{
     }
     
     nav .logo{
-        width: 50%px;
+        width: 50%;
     }
 
     nav .profile{
         display: none;
-    }
+    } 
     
     main .playlist_name{
-        width: 400px;
+        width: 100%;
     }
 
     main .musicas{
-        width: 400px;
+        width: 100%;
     }
 
     main .musicas .ancora .musicas_10{
-        width: 400px;
+        width: 100%;
     }
 
     main .musicas .ancora .musicas_10 .nome_album{
@@ -212,6 +212,109 @@ footer{
     footer .container{
         padding-right: 0;
         padding-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 700px ) {
+    nav .busca .caixa{
+        width: 200px;
+        margin-right: 0;
+        
+    }
+
+    nav .busca .lupa{
+        margin-right: 0;
+    }
+    
+    nav .logo{
+        width: 50%;
+    }
+
+    /* nav .profile{
+        display: none;
+    } */
+    
+    main .playlist_name{
+        width: 100%;
+    }
+
+    main .musicas{
+        width: 100%;
+    }
+
+    main .musicas .ancora .musicas_10{
+        width: 100%;
+    }
+
+    main .musicas .ancora .musicas_10 .nome_album{
+        display: none;
+    }
+
+    main .musicas .ancora .musicas_10 .nome_banda{
+        display: none;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 1100px ) {
+    nav .busca .caixa{
+        width: 400px;
+        margin-right: 200;
+        
+    }
+
+    nav .busca .lupa{
+        margin-right: 200;
+    }
+    
+    nav .logo{
+        width: 50%;
+    }
+
+    /* nav .profile{
+        display: none;
+    } */
+    
+    main .playlist_name{
+        width: 100%;
+    }
+
+    main .musicas{
+        width: 100%;
+    }
+
+    main .musicas .ancora .musicas_10{
+        width: 100%;
+    }
+
+    main .musicas .ancora .musicas_10 .nome_album{
+        display: block
+    }
+
+    main .musicas .ancora .musicas_10 .nome_banda{
+        display: block
+    }
+
+    main .texto_letra{
+        width: auto;
+    }
+
+    main .div_bar .music_mini{
+        display: block;
+        text-align: right;
+        width: 202px;
+    }
+
+    main .div_bar{
+        margin-left: 10px;
+    }
+
+    main .div_bar .tempo_mini{
+        display: flex;
+        margin-right: 10px;
     }
 
 }
@@ -385,7 +488,7 @@ progress{
     width: 152px;
     text-align: right;
     margin-top: 15px;
-    
+
 }
 
 .tempo_mini{
