@@ -139,6 +139,89 @@ footer{
     
 }
 
+
+@media screen and (max-width: 1050px ) {
+    nav .busca .caixa{
+        width: 350px;
+        margin-right: 100px;
+        
+    }
+
+    nav .busca .lupa{
+        margin-right: 100px;
+    }
+    
+    nav .logo{
+        width: 50%;
+    }
+
+    nav .profile{
+        display: block;
+    } 
+    
+    main .playlist_name{
+        width: 100%;
+    }
+
+    main .musicas{
+        width: 100%;
+    }
+
+    main .musicas .ancora .musicas_10{
+        width: 100%;
+    }
+
+    main .musicas .ancora .musicas_10 .nome_album{
+        display: block;
+    }
+
+    main .musicas .ancora .musicas_10 .nome_banda{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 700px ) {
+    nav .busca .caixa{
+        width: 200px;
+        margin-right: 0;
+        
+    }
+
+    nav .busca .lupa{
+        margin-right: 0;
+    }
+    
+    nav .logo{
+        width: 50%;
+    }
+
+    nav .profile{
+        display: block;
+    } 
+    
+    main .playlist_name{
+        width: 100%;
+    }
+
+    main .musicas{
+        width: 100%;
+    }
+
+    main .musicas .ancora .musicas_10{
+        width: 100%;
+    }
+
+    main .musicas .ancora .musicas_10 .nome_album{
+        display: none;
+    }
+
+    main .musicas .ancora .musicas_10 .nome_banda{
+        display: block;
+    }
+}
+
+
 @media screen and (max-width: 480px ) {
     nav .busca .caixa{
         width: 200px;
@@ -216,45 +299,6 @@ footer{
 
 }
 
-@media screen and (max-width: 700px ) {
-    nav .busca .caixa{
-        width: 200px;
-        margin-right: 0;
-        
-    }
-
-    nav .busca .lupa{
-        margin-right: 0;
-    }
-    
-    nav .logo{
-        width: 50%;
-    }
-
-    nav .profile{
-        display: none;
-    } 
-    
-    main .playlist_name{
-        width: 100%;
-    }
-
-    main .musicas{
-        width: 100%;
-    }
-
-    main .musicas .ancora .musicas_10{
-        width: 100%;
-    }
-
-    main .musicas .ancora .musicas_10 .nome_album{
-        display: none;
-    }
-
-    main .musicas .ancora .musicas_10 .nome_banda{
-        display: none;
-    }
-}
 
 
 .musicas_10{
