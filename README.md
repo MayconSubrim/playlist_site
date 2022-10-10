@@ -10,3 +10,6 @@ Link prototipo animado pelo figma: https://www.figma.com/proto/RYOkL5nDRCwFmAdmW
 link prototipo figma: https://www.figma.com/file/RYOkL5nDRCwFmAdmW1a0KJ/Untitled?node-id=39%3A521;
 
 Link do site: https://mayconsubrim.github.io/playlist_site/
+
+
+
